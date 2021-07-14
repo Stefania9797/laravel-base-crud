@@ -1,5 +1,6 @@
 @extends('comics.layout.app')
 @section('title','HomePage')
 @section('content')
-<p>Lorem ipsum dolor sit.</p>
+<h2>Comics List</h2>
+    <a href="{{ route('create') }}">Add Comic</a>
 @endsection
