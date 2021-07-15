@@ -14,6 +14,7 @@
                     <th>Cover</th>
                     <th>Price</th>
                     <th>View</th>
+                    <th>Edit</th>
                 </tr>
             </thead>
             
@@ -26,10 +27,12 @@
                     <td><img src="{{ $comic->cover}}" alt=""></td>
                     <td>{{ $comic->price }} EURO</td>
                     <td><a href="{{ route('comics.show', $comic->id ) }}">View</a></td>
+                    <td><a href="{{ route('comics.edit', $comic->id ) }}">Edit</a></td>
                 </tr>
                 
                 @endforeach
             </tbody>
         </table>
+        
     </div>
         @endsection
