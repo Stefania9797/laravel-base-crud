@@ -1,3 +1,6 @@
+@import "partials/variables";
+@import "partials/header";
+
 .form-group{
     div{
         margin: 10px 0;
@@ -18,4 +21,32 @@ td, th{
 }
 h1,h2{
     text-align: center;
+}
+textarea{width: 100%;}
+
+form 
+{
+    div{
+        padding: 15px;
+    }
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+.comic-details{
+    display: flex;
+}
+.go-back , .add{
+    font-size: 1.5rem;
+    display: inline-block;
+    padding: 5px;
+}
+.submit{
+    input{
+        width: 100%;
+        text-transform: uppercase;
+    }
 }
