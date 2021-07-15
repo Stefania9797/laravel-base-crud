@@ -6,7 +6,16 @@
 }
 thead{
     th{
-        margin-right: 20px;
-        display: inline-block;
+        margin-right: 10px;
     }
+}
+td, th{
+    padding: 15px;
+    border: 2px solid lightgray;
+}
+#cover , #title, #series{
+    width: 500px;
+}
+h1,h2{
+    text-align: center;
 }
